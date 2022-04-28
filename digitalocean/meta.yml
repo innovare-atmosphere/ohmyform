@@ -1,0 +1,4 @@
+name: ohmyform-latest-docker
+description: Deploy standard latest docker image of ohmyform on a Digital Ocean droplet
+categories:
+- Marketing
