@@ -80,7 +80,7 @@ resource "digitalocean_droplet" "www-ohmyform" {
       "export PATH=$PATH:/usr/bin",
       # run compose
       "cd /root/ohmyform",
-      "docker-compose up -d",
+      "docker compose up -d",
       "rm /etc/nginx/sites-enabled/default",
       "systemctl restart nginx",
       "ufw allow http",
